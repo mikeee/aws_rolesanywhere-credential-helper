@@ -34,4 +34,4 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 )
 
-replace github.com/aws/rolesanywhere-credential-helper => github.com/mikeee/aws_rolesanywhere-credential-helper v1.6.0
+replace github.com/aws/rolesanywhere-credential-helper => github.com/mikeee/aws_rolesanywhere-credential-helper v1.6.0-mike1
