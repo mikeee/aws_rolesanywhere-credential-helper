@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	helper "github.com/aws/rolesanywhere-credential-helper/aws_signing_helper"
+	helper "github.com/mikeee/aws_rolesanywhere-credential-helper/aws_signing_helper"
 	"github.com/spf13/cobra"
 )
 

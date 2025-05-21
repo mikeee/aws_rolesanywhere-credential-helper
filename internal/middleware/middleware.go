@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	internalcontext "github.com/aws/rolesanywhere-credential-helper/internal/context"
 	"github.com/aws/smithy-go/middleware"
+	internalcontext "github.com/mikeee/aws_rolesanywhere-credential-helper/internal/context"
 )
 
 // AddTimeOffsetMiddleware sets a value representing clock skew on the request context.

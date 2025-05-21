@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/aws/rolesanywhere-credential-helper/cmd"
+	"github.com/mikeee/aws_rolesanywhere-credential-helper/cmd"
 )
 
 func main() {
