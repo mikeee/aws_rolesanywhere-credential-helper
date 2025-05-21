@@ -12,7 +12,7 @@ else
 endif
 
 build/bin/aws_signing_helper:
-	go build -buildmode=pie -ldflags "-X 'github.com/aws/rolesanywhere-credential-helper/cmd.Version=${VERSION}' $(extra_ld_flags) -linkmode=external -w -s" -trimpath -o build/bin/aws_signing_helper main.go
+	go build -buildmode=pie -ldflags "-X 'github.com/mikeee/aws_rolesanywhere-credential-helper/cmd.Version=${VERSION}' $(extra_ld_flags) -linkmode=external -w -s" -trimpath -o build/bin/aws_signing_helper main.go
 
 .PHONY: clean
 clean: test-clean

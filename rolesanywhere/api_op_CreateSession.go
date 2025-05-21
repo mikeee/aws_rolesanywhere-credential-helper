@@ -6,9 +6,9 @@ import (
 	"context"
 	"fmt"
 	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/rolesanywhere-credential-helper/rolesanywhere/types"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/mikeee/aws_rolesanywhere-credential-helper/rolesanywhere/types"
 )
 
 func (c *Client) CreateSession(ctx context.Context, params *CreateSessionInput, optFns ...func(*Options)) (*CreateSessionOutput, error) {
