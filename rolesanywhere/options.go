@@ -6,13 +6,13 @@ import (
 	"context"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	internalauthsmithy "github.com/aws/rolesanywhere-credential-helper/internal/auth/smithy"
 	smithyauth "github.com/aws/smithy-go/auth"
 	"github.com/aws/smithy-go/logging"
 	"github.com/aws/smithy-go/metrics"
 	"github.com/aws/smithy-go/middleware"
 	"github.com/aws/smithy-go/tracing"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
+	internalauthsmithy "github.com/mikeee/aws_rolesanywhere-credential-helper/internal/auth/smithy"
 	"net/http"
 )
 

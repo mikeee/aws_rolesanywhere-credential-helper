@@ -14,9 +14,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws/arn"
 	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
 	"github.com/aws/aws-sdk-go-v2/config"
-	"github.com/aws/rolesanywhere-credential-helper/rolesanywhere"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/mikeee/aws_rolesanywhere-credential-helper/rolesanywhere"
 )
 
 type CredentialsOpts struct {

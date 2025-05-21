@@ -4,8 +4,8 @@ package endpoints
 
 import (
 	"github.com/aws/aws-sdk-go-v2/aws"
-	endpoints "github.com/aws/rolesanywhere-credential-helper/internal/endpoints/v2"
 	"github.com/aws/smithy-go/logging"
+	endpoint
 	"regexp"
 )
 

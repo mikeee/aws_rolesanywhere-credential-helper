@@ -12,10 +12,6 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws/retry"
 	"github.com/aws/aws-sdk-go-v2/aws/signer/v4"
 	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
-	internalauth "github.com/aws/rolesanywhere-credential-helper/internal/auth"
-	internalauthsmithy "github.com/aws/rolesanywhere-credential-helper/internal/auth/smithy"
-	internalConfig "github.com/aws/rolesanywhere-credential-helper/internal/configsources"
-	internalmiddleware "github.com/aws/rolesanywhere-credential-helper/internal/middleware"
 	smithy "github.com/aws/smithy-go"
 	smithyauth "github.com/aws/smithy-go/auth"
 	smithydocument "github.com/aws/smithy-go/document"
@@ -24,6 +20,7 @@ import (
 	"github.com/aws/smithy-go/middleware"
 	"github.com/aws/smithy-go/tracing"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
+	internalauth "github.com/mikeee/aws_role
 	"net"
 	"net/http"
 	"sync/atomic"
